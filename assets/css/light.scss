@@ -6,7 +6,10 @@ $secondary: #128631;
 $thirty: #dde5fd;
 $fourty: #80ced7;
 $light: #eefcd9;
-
+body,
+html {
+  overflow-x: hidden;
+}
 /* HTML REDESIGN */
 * {
   font-family: "Sora", sans-serif;
@@ -21,6 +24,7 @@ a {
 body {
   color: #000 !important;
   font-weight: 300;
+  overflow-x: hidden;
 }
 a,
 .btn {
